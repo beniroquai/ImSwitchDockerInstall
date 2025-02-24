@@ -104,8 +104,8 @@ jobs:
           echo "Using SSID: $SSID"
 
           # Update hostapd settings with new SSID and pass
-          sudo sed -i "s/^ssid=.*/ssid=$SSID/g" /etc/hostapd/hostapd.conf
-          sudo sed -i "s/^wpa_passphrase=.*/wpa_passphrase=youseetoo/g" /etc/hostapd/hostapd.conf
+          # sudo sed -i "s/^ssid=.*/ssid=$SSID/g" /etc/hostapd/hostapd.conf
+          # sudo sed -i "s/^wpa_passphrase=.*/wpa_passphrase=youseetoo/g" /etc/hostapd/hostapd.conf
 
 
           # ----------------------------------------------------------------------------
