@@ -192,6 +192,9 @@ jobs:
           # Install extra Python packages
           pip3 install --break-system-packages pillow numpy
 
+          # C) try to pull docker if internet is available 
+          cd ~/Desktop
+          ./launch_docker_container.sh 
           # ---------------------------------------
           # Create Desktop for user 'pi'
           # ---------------------------------------
